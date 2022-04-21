@@ -3,7 +3,7 @@ import "./Header.css";
 function Header({ image, title, children }) {
    return (
       <header className="Header">
-         <img src={image} alt="My Awesome Image"/>
+          <input type="image" img src = {image} alt="photo" />
          <section>
          {/* <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"/> */}
          <h1>{title}</h1>
